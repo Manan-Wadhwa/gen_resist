@@ -59,5 +59,61 @@
             </div>
         </div>
     </div>
+    <main>
+        <div class="heading">
+            Dashboard
+        </div>
+        <div class="headingTagline">
+            Upload genomes, view resistance reports, and monitor insights effortlessly
+        </div>
+        <div class="stats">
+            <div class="smallStat greenStat">
+                <div class="statHeading">Total Antibiotics</div>
+                <div class="statValue">--</div>
+                <div class="statPS">Antibiotics Tested in Sample</div>
+            </div>
+            <div class="smallStat">
+                <div class="statHeading">Resistance Antibiotics</div>
+                <div class="statValue">--</div>
+                <div class="statPS">Predicted Resistant Antibiotics</div>
+            </div>
+            <div class="smallStat">
+                <div class="statHeading">GC Content</div>
+                <div class="statValue">--</div>
+                <div class="statPS">Genome GC Percentage</div>
+            </div>
+            <div class="smallStat">
+                <div class="statHeading">Length Norm</div>
+                <div class="statValue">--</div>
+                <div class="statPS">Normalized Genome Length</div>
+            </div>
+            <div class="graphStat">
+                <div class="statHeading">
+                    Antibiotic Resistance Analysis
+                    <div class="caution">Less is better</div>
+                </div>
+                <div class="barsCont"></div>
+            </div>
+            <div class="visStat">
+                <div class="statHeading">
+                    Gene Network Visualization
+                    <div id="openBig" class="openBig"><i class="bi bi-arrow-up-right-circle"></i></div>
+                </div>
+                <div id="genresist-network"></div>
+                <div class="vis-controls">
+                    <button class="btn" id="networkFitBtn">Fit</button>
+                    <button class="btn" id="networkSaveBtn">Save PNG</button>
+                </div>
+            </div>
+            <div class="treatmentStat">
+                <div class="statHeading">Treatment Recommendations</div>
+                <div class="antibioticCont"></div>
+            </div>
+            <div class="geneDetailsStat">
+                <div class="statHeading">Genes</div>
+                <div class="genesCont"></div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
